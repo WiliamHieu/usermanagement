@@ -7,14 +7,79 @@ export default function WidgetSm() {
             <span className="widgetSmTitle">New Join Member</span>
             <ul className="widgetSmList">
                 <li className="widgetSmListItem">
-                    <img src="https://cdn1.tuoitre.vn/zoom/600_315/2020/4/23/tjvena7bnvijpzvq3fscpx-970-80-1587599428795869438770-crop-15875995221191505633329.jpg" alt="" />
+                    <img src="https://randomuser.me/api/portraits/men/23.jpg" alt="" className="widgetSmImg"/>
                     <div className="widgetSmUser">
                         <span className="widgetSmUsername">Mikaela Oconnor</span>
                         <span className="widgetSmUserTitle">Massage Therapist</span>
                     </div>
                     <button className="widgetSmButton">
-                        <Visibility/>
-                        
+                        <Visibility className="widgetSmIcon"/>
+                        Display
+                    </button>
+                </li>
+            </ul>
+            <ul className="widgetSmList">
+                <li className="widgetSmListItem">
+                    <img src="https://randomuser.me/api/portraits/women/60.jpg" alt="" className="widgetSmImg"/>
+                    <div className="widgetSmUser">
+                        <span className="widgetSmUsername">Kristi Morton</span>
+                        <span className="widgetSmUserTitle">Reporter</span>
+                    </div>
+                    <button className="widgetSmButton">
+                        <Visibility className="widgetSmIcon"/>
+                        Display
+                    </button>
+                </li>
+            </ul>
+            <ul className="widgetSmList">
+                <li className="widgetSmListItem">
+                    <img src="https://randomuser.me/api/portraits/women/6.jpg" alt="" className="widgetSmImg"/>
+                    <div className="widgetSmUser">
+                        <span className="widgetSmUsername">Desiree Gordon</span>
+                        <span className="widgetSmUserTitle">Recreation</span>
+                    </div>
+                    <button className="widgetSmButton">
+                        <Visibility className="widgetSmIcon"/>
+                        Display
+                    </button>
+                </li>
+            </ul>
+            <ul className="widgetSmList">
+                <li className="widgetSmListItem">
+                    <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="" className="widgetSmImg"/>
+                    <div className="widgetSmUser">
+                        <span className="widgetSmUsername">Fred Andrews</span>
+                        <span className="widgetSmUserTitle">Physicist</span>
+                    </div>
+                    <button className="widgetSmButton">
+                        <Visibility className="widgetSmIcon"/>
+                        Display
+                    </button>
+                </li>
+            </ul>
+            <ul className="widgetSmList">
+                <li className="widgetSmListItem">
+                    <img src="https://randomuser.me/api/portraits/men/8.jpg" alt="" className="widgetSmImg"/>
+                    <div className="widgetSmUser">
+                        <span className="widgetSmUsername">Shannon Douglas</span>
+                        <span className="widgetSmUserTitle">Web Developer</span>
+                    </div>
+                    <button className="widgetSmButton">
+                        <Visibility className="widgetSmIcon"/>
+                        Display
+                    </button>
+                </li>
+            </ul>
+            <ul className="widgetSmList">
+                <li className="widgetSmListItem">
+                    <img src="https://randomuser.me/api/portraits/women/50.jpg" alt="" className="widgetSmImg"/>
+                    <div className="widgetSmUser">
+                        <span className="widgetSmUsername">Johnnie Wheeler</span>
+                        <span className="widgetSmUserTitle">Paramedic</span>
+                    </div>
+                    <button className="widgetSmButton">
+                        <Visibility className="widgetSmIcon"/>
+                        Display
                     </button>
                 </li>
             </ul>
