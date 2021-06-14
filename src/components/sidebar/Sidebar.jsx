@@ -1,6 +1,8 @@
 import React from 'react' 
 import "./sidebar.css"
 import { LineStyle, Timeline, TrendingUp } from '@material-ui/icons';
+import { Link } from 'react-router-dom';
+
 
 export default function Sidebar() {
     return (
@@ -26,14 +28,18 @@ export default function Sidebar() {
                 <div className="sidebarMenu">
                     <h3 className="sidebarTitle">DashBoard</h3>
                     <ul className="sidebarList">
-                        <li className="sidebarListItem "> 
-                            <LineStyle className="sidebarIcon"/>
-                            Users
+                        <Link to="/users" className="link">
+                            <li className="sidebarListItem "> 
+                                <LineStyle className="sidebarIcon"/>
+                                Users
                         </li>
-                        <li className="sidebarListItem"> 
-                            <Timeline  className="sidebarIcon" />
-                            Products
+                        </Link>
+                        <Link to="/products" className="link">
+                            <li className="sidebarListItem"> 
+                                <Timeline  className="sidebarIcon" />
+                                Products
                         </li>
+                        </Link>
                         <li className="sidebarListItem"> 
                             <TrendingUp  className="sidebarIcon"/>
                             Transactions
